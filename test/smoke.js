@@ -3,7 +3,7 @@ mocha.setup('bdd');
 var ready;
 var expect = chai.expect;
 
-before(function (done) {
+before(function (done) 
   ready = done;
 });
 
